@@ -7,6 +7,10 @@ var Weather =require('Weather');
 var About =require('About');
 var Example =require('Example');
 
+//Load Function
+
+require('style!css!foundation-sites/dist/foundation.min.css');
+$(document).foundation();
 
 ReactDOM.render(
    <Router history={hashHistory}>
